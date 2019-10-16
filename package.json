@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mkdir images && node index"
+    "start": "rm -rf images && mkdir images && node index"
   },
   "keywords": [
     "crawl",
