@@ -17,7 +17,7 @@ const download = require("image-downloader");
   });
   console.log(imgLinks);
 
-  // Tải các ảnh này về thư mục hiện tại
+  // Tải các ảnh này về thư mục images
   await Promise.all(
     imgLinks.map((imgUrl) =>
       download.image({
@@ -28,4 +28,5 @@ const download = require("image-downloader");
   );
 
   await browser.close();
+  console.log("Xong rồi nha bạn!");
 })();
