@@ -16,6 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "image-downloader": "^4.3.0",
-    "puppeteer": "^1.19.0"
+    "puppeteer": "^18.2.0"
   }
 }
